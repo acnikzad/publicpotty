@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+bathroom = Bathroom.create(park: "George Sim Park", latitude: 38.513281321170300, longitude: -121.414827906638000)
+bathroom.save
